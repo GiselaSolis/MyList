@@ -1,0 +1,75 @@
+body{
+  font-family: sans-serif;
+  margin: 0 !important ; 
+  padding: 0 !important; 
+}
+
+#bodyStyle{
+  justify-content: center;
+  display: grid;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  display: grid;
+  list-style: none;
+  color: grey;
+}
+
+ul {
+  list-style: none;
+  padding: 0 50px;
+}
+
+.titleContainer {
+  width: 300px;
+  text-align: center;
+}
+
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  color: tomato;
+  margin: 50px 0 0 0;
+}
+
+p{
+  font-size: 14px;
+  color: grey;
+  margin: 10px 0 40px 0;
+
+}
+
+@media only screen and (max-width:300px){
+  .titleContainer {
+    width: auto;
+  }
+}
+
+#inputStyle {
+  background-color:white;
+  font-size: 12px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.deleteBtn {
+  margin: 0 10px;
+  font-size: 5px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  padding: 0;
+  background-color: tomato;
+  border: 0;
+  color:white;
+}
+
+.deleteBtn:hover{
+  background-color: crimson;
+}
